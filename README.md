@@ -1,3 +1,7 @@
+## README.md
+
+In Scripts.js, you can find the mint script. Built-in using ethers.js
+
 ## Foundry
 
 **Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
