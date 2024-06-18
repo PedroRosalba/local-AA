@@ -1,21 +1,69 @@
-![](https://i.imgur.com/Ym2VV8z.png)
+## README.md
 
-# Getting started
+In Scripts.js, you can find the mint script. Built-in using ethers.js
 
-A collection of example scripts for working with ERC-4337. **For details on how to use this repository, [check out the docs here](https://docs.stackup.sh/docs/erc-4337-examples).**
+## Foundry
 
-The implementation for all commands are located in the [scripts directory](./scripts/). All scripts are built with the following open source packages:
+**Foundry is a blazing fast, portable and modular toolkit for Ethereum application development written in Rust.**
 
-- Sample contracts: [eth-infinitism/account-abstraction](https://github.com/eth-infinitism/account-abstraction)
-- ZeroDev Kernel contracts: [zerodevapp/kernel](https://github.com/zerodevapp/kernel)
-- JS SDK: [userop.js](https://github.com/stackup-wallet/userop.js)
+Foundry consists of:
 
-> **🚀 Looking for access to hosted infrastructure to build your Smart Accounts? Check out [stackup.sh](https://www.stackup.sh/)!**
+-   **Forge**: Ethereum testing framework (like Truffle, Hardhat and DappTools).
+-   **Cast**: Swiss army knife for interacting with EVM smart contracts, sending transactions and getting chain data.
+-   **Anvil**: Local Ethereum node, akin to Ganache, Hardhat Network.
+-   **Chisel**: Fast, utilitarian, and verbose solidity REPL.
 
-# License
+## Documentation
 
-Distributed under the MIT License. See [LICENSE](./LICENSE) for more information.
+https://book.getfoundry.sh/
 
-# Contact
+## Usage
 
-Feel free to direct any technical related questions to the `dev-hub` channel in the [Stackup Discord](https://discord.gg/VTjJGvMNyW).
+### Build
+
+```shell
+$ forge build
+```
+
+### Test
+
+```shell
+$ forge test
+```
+
+### Format
+
+```shell
+$ forge fmt
+```
+
+### Gas Snapshots
+
+```shell
+$ forge snapshot
+```
+
+### Anvil
+
+```shell
+$ anvil
+```
+
+### Deploy
+
+```shell
+$ forge script script/Counter.s.sol:CounterScript --rpc-url <your_rpc_url> --private-key <your_private_key>
+```
+
+### Cast
+
+```shell
+$ cast <subcommand>
+```
+
+### Help
+
+```shell
+$ forge --help
+$ anvil --help
+$ cast --help
