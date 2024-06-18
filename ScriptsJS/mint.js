@@ -8,7 +8,7 @@ const privateKey = '840ef5dbff7cdcecc7220f7ba9ae31151459e49da1a92f8feabbcac8f604
 const wallet = new ethers.Wallet(privateKey, provider);
 
 // Replace with your deployed contract address
-const contractAddress = '0xc930bbE89737362DC4187a8ee4146e33F7859D80';
+const contractAddress = '0x89ac444560503718643Af7cc57643Abfcbdaec40';
 
 // ABI of the MyToken contract (only the mint function is needed)
 const abi = [

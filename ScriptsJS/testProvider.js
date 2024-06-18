@@ -4,4 +4,3 @@ const { ethers } = require('ethers');
 const provider = new ethers.providers.JsonRpcProvider('https://rpc.sepolia.dev');
 
 console.log(provider);
-console.log(ethers.providers);
