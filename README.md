@@ -1,6 +1,13 @@
 ## README.md
 
+In src, you find the contract of the token.
+
 In Scripts.js, you can find the mint script. Built-in using ethers.js
+
+Go to /erc-4337-examples. To create a smart account, run "yarn run simpleAccount address".
+
+To run transactions using erc20 tokens, go to /erc-4337-examples/scripts/simpleAccount and run 
+"yarn run simpleAccount erc20Transfer --token {token_contract} --to {user_address} --amount {amount_tokens}"
 
 ## Foundry
 
